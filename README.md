@@ -47,6 +47,6 @@ async function runReport(paths: string[]) {
 runReport(reportPathsToMerge);
 ```
 
-After a test run, where there is a folder `/playwright-report` with multiple sub-folders `/report-1`, `/report-2/`, etc. Running the command `npx ts-node lib/metrics/mergeReports.ts` will search through the folders for both html and json reports and combine them, and output them into a folder named `html-report`.
+After a test run, where there is a folder `/playwright-report` with multiple sub-folders `/report-1`, `/report-2/`, etc. Running the command `npx ts-node lib/metrics/mergeReports.ts` will search through the folders for both html and json reports and combine them, and output the html report to `html-report` and the combined summary.json to the main directory.
 
 If you found this helpful feel free to check out <https://playwrightsolutions.com>!
