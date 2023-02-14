@@ -2,7 +2,7 @@
 
 import * as fs from 'fs';
 
-async function mergeSummary(directories: string[]) {
+export async function mergeSummary(directories: string[]) {
   const combined = {
     durationInMS: 0,
     passed: [],
@@ -40,5 +40,3 @@ async function mergeSummary(directories: string[]) {
   console.log(`Successfully merged ${directories.length} summary.json files`);
   return combined;
 }
-
-export {mergeSummary};
