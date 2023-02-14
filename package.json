@@ -1,6 +1,6 @@
 {
   "name": "playwright-merge-summary-json-reports",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A package that will make it easy to merge summary.json files output from playwright customer reporter playwright-json-summary-reporter.",
   "main": "lib/src/index.js",
   "devDependencies": {
